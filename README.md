@@ -24,11 +24,12 @@ ESP-NOW operates primarily at the data-link layer of the OSI model. In contrast 
 1. Creating some sort of awareness systems aroud a vehicle.
 2. The nomenclature for V2V, V2I and V2H goes as :-
 
-    * ESP A ---> Vehicle 1 🚗
-    * OBJECT ---> Vehicle 2 🚌 
+    * ESP A ---> Vehicle 1 (V1) 🚗
+    * OBJECT ---> Vehicle 2 (V2) 🚌 
     * ESP B ---> Infrastructure 🚦 
     * ESP C ---> Household 🏡 
 
+3. 
 
 ## Master edits
 1. LED Initialization: The LED_PIN is defined, and the pin mode is set to OUTPUT in the setup() function.
