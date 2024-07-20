@@ -29,9 +29,9 @@ ESP-NOW operates primarily at the data-link layer of the OSI model. In contrast 
     * ESP B ---> Infrastructure 🚦 
     * ESP C ---> Household 🏡 
 
-3. 
+3. V1 
 
-## Master edits
+## Master edits (in Improvement phase)
 1. LED Initialization: The LED_PIN is defined, and the pin mode is set to OUTPUT in the setup() function.
 2. LED Blinking in onReceive Function: In the onReceive function of the ESP_NOW_Peer_Class, the LED is turned on, delayed for 500 milliseconds, and then turned off whenever a message is received.
 3. Callback Registration: The register_new_master function registers new peers and sets the callback for receiving messages, where the LED blink will be triggered.
