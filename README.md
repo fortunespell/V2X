@@ -31,19 +31,22 @@ ESP-NOW operates primarily at the data-link layer of the OSI model. In contrast 
 
 3. V2V => V1 has range detection via ultrasonic sensor which is used to detect if another vehicle or and object is very near to the V1 . On to the next thing, implementation of hard braking using a pressure sensor which will indicate the any hard braking which is most likely a case in accidents . Implementation of GPS sensor for live location of the vehicle. An Ai assistant can also be integrated for guidance of driver .
 
-## Master edits (in Improvement phase)
+## Master edits (In Improvement phase)
 1. LED Initialization: The LED_PIN is defined, and the pin mode is set to OUTPUT in the setup() function.
 2. LED Blinking in onReceive Function: In the onReceive function of the ESP_NOW_Peer_Class, the LED is turned on, delayed for 500 milliseconds, and then turned off whenever a message is received.
 3. Callback Registration: The register_new_master function registers new peers and sets the callback for receiving messages, where the LED blink will be triggered.
 
 
-## Slave edits
+## Slave edits (In Improvement phase)
+
 1. Modify the master code to read ultrasonic sensor values and send them via ESP-NOW.
 2. Update the slave code to receive these values and trigger the buzzer accordingly.
 
 
 ## Connections 
+
 ### Master ESP32 Connections
+
 1. Ultrasonic Sensor ---->	ESP32
 2. VCC ---->	5V
 3. GND ---->	GND
