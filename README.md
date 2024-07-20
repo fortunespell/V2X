@@ -29,7 +29,7 @@ ESP-NOW operates primarily at the data-link layer of the OSI model. In contrast 
     * ESP B ---> Infrastructure 🚦 
     * ESP C ---> Household 🏡 
 
-3. V1 
+3. V2V => V1 has range detection via ultrasonic sensor which is used to detect if another vehicle or and object is very near to the V1 . On to the next thing, implementation of hard braking using a pressure sensor which will indicate the any hard braking which is most likely a case in accidents . Implementation of GPS sensor for live location of the vehicle. An Ai assistant can also be integrated for guidance of driver .
 
 ## Master edits (in Improvement phase)
 1. LED Initialization: The LED_PIN is defined, and the pin mode is set to OUTPUT in the setup() function.
