@@ -26,8 +26,8 @@ ESP-NOW operates primarily at the data-link layer of the OSI model. In contrast 
 
     * ESP A ---> Vehicle 1 🚗
     * OBJECT ---> Vehicle 2 🚌 
-    * ESP B ---> Infrastructure 
-    * ESP C ---> Household 
+    * ESP B ---> Infrastructure 🚦 
+    * ESP C ---> Household 🏡 
 
 
 ## Master edits
