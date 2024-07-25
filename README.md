@@ -59,3 +59,8 @@ ESP-NOW operates primarily at the data-link layer of the OSI model. In contrast 
 2. VCC ---->	5V
 3. GND ---->	GND
 4. SIG ---->	GPIO 2
+
+
+
+
+![image](https://github.com/user-attachments/assets/45f74089-218b-4a21-9764-7f41933ca114)
