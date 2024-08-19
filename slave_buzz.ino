@@ -20,7 +20,7 @@
 #define ESPNOW_WIFI_CHANNEL 6
 #define LED_PIN 2
 #define BUZZER_PIN 33
-#define CLOSE_RANGE_CM 20 // Define the close range distance
+#define CLOSE_RANGE_CM 6 // Define the close range distance
 
 /* Classes */
 
@@ -58,7 +58,7 @@ public:
     digitalWrite(LED_PIN, LOW);
 
     // Buzz if the distance is within close range
-    if (distance <= CLOSE_RANGE_CM) {
+    if (distance >= CLOSE_RANGE_CM) {
       digitalWrite(BUZZER_PIN, HIGH);
       delay(5000); // Adjust the buzz duration as needed
       digitalWrite(BUZZER_PIN, LOW);
